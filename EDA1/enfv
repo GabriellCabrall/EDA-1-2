@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct fila
+{
+    int *dados;
+    int N, p, u;
+} fila;
+
+int enfileira(fila *f, int x)
+{
+    if ((f->u + 1) % f->N == f->p)
+    {
+        f->dados = realloc(f->dados, 2 * (f->N));
+        if (f->dados == NULL)
+            return 0;
+        f->N = (f->N) * 2;
+    }
+    f->dados[f->u] = x;
+    f->u = (f->u + 1) % N;
+    return 1;
+}

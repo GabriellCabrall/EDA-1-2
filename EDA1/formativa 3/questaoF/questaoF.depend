@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1660069643 source:c:\users\gabri\dropbox\pc\documents\eda\formativa 3\questaof\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

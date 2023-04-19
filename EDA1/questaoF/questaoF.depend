@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1655324995 source:c:\users\gabri\dropbox\pc\documents\eda\questaof\main.c
+	<stdio.h>
+	<stdlib.h>
+

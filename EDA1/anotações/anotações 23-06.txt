@@ -1,0 +1,6 @@
+1. Leitura de strings
+	scanf("%s",str); #lê uma palavra sem consumir o caracter espaço
+   sendo
+	char str[100];
+	scanf(" %s", str); #consumir o espaço
+	scanf(" %[^\n]s", str); #ler a linha inteira, sem ler o \n
